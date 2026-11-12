@@ -1,0 +1,63 @@
+### Testar Servidor
+GET http://localhost:3000
+Content-Type: application/json
+###
+
+### Cadastrar Usuario
+POST http://localhost:3000/Usuario
+Content-Type: application/json
+
+{
+    "nome": "Diego",
+    "email": "diego@gmail.com",
+    "cpf": "12345678910",
+    "telefone": "10987654321"
+}
+###
+
+### Consultar Usuario
+POST http://localhost:3000/Usuario
+Content-Type: application/json
+
+{
+    "nome": "Diego",
+    "email": "diego@gmail.com",
+    "cpf": "12345678910",
+    "telefone": "10987654321"
+}
+###
+
+### Listar Usuario
+POST http://localhost:3000/Usuario
+Content-Type: application/json
+
+{
+    "nome": "Diego",
+    "email": "diego@gmail.com",
+    "cpf": "12345678910",
+    "telefone": "10987654321"
+}
+###
+
+### Atualizar Usuario
+POST http://localhost:3000/Usuario
+Content-Type: application/json
+
+{
+    "nome": "Diego",
+    "email": "diego@gmail.com",
+    "cpf": "12345678910",
+    "telefone": "10987654321"
+}
+###
+
+### Apagar Usuario
+DELETE  http://localhost:3000/Usuario
+Content-Type: application/json
+
+{
+    "nome": "Diego",
+    "email": "diego@gmail.com",
+    "cpf": "12345678910",
+    "telefone": "10987654321"
+}
